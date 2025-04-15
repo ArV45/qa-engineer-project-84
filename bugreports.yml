@@ -1,22 +1,5 @@
 ---
 - summary: |
-    Изменяется url в адресной строке браузера, не работают вкладки LOBBY/TOURNAMENT/COMPLETED GAMES
-  environment: |
-    Google Chrome 107.0.5304.121 (Официальная сборка) (64 бит)
-    ОС Linux
-  steps-to-reproduce: |
-    1. Залогиниться в системе https://codebattle.hexlet.io/session/new?locale=en&next=%2F
-    2. Переключить Лидерборд по сроку (месяц/неделя/за все время)
-    3. Переключить LOBBY/TOURNAMENT/COMPLETED GAMES
-  expected-result: |
-    В адресной строке url не меняется
-    Вкладки работают
-  actual-result: |
-    При нажатии на week,month,all в urlHash появляется '!'
-    Вкладки не работают
-    Ошибка изображена на скриншоте assets/bug.png
-
-- summary: |
     Возможность добавить в корзину и заказать товар отсутствующий в наличии
   environment: |
     Google Chrome 135.0.7049.85 (Официальная сборка) (64 бит)
